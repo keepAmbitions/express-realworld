@@ -25,3 +25,5 @@ app.use(handleErrer)
 app.listen(PORT, () => {
   console.log(`server is running at localhost:${PORT}`)
 })
+
+export default app
